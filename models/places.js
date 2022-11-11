@@ -1,5 +1,6 @@
 const { Sequelize } = require("sequelize");
 
+//A Model represents a table in the database. Instances of this class represent a database row.
 module.exports = (sequelize) => {
   const Place = sequelize.define("Place", {
     id: {
